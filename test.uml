@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="340.0" y="199.0">ApplicationManager</node>
+    <node x="246.0" y="102.0">SessionHelper</node>
+    <node x="102.75" y="199.0">TestBase</node>
+    <node x="0.0" y="279.0">AddNewMaterials</node>
+    <node x="253.5" y="0.0">HelperBase</node>
+    <node x="473.0" y="102.0">FillFormHelper</node>
+    <node x="162.0" y="279.0">AddNewFeature</node>
+    <node x="0.0" y="102.0">NavigationHelper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FillFormHelper" target="HelperBase">
+      <point x="0.0" y="-26.0" />
+      <point x="578.5" y="77.0" />
+      <point x="413.5" y="77.0" />
+      <point x="64.0" y="26.0" />
+    </edge>
+    <edge source="AddNewFeature" target="TestBase">
+      <point x="0.0" y="-15.0" />
+      <point x="228.5" y="254.0" />
+      <point x="173.25" y="254.0" />
+      <point x="23.5" y="15.0" />
+    </edge>
+    <edge source="NavigationHelper" target="HelperBase">
+      <point x="0.0" y="-26.0" />
+      <point x="113.0" y="77.0" />
+      <point x="285.5" y="77.0" />
+      <point x="-64.0" y="26.0" />
+    </edge>
+    <edge source="SessionHelper" target="HelperBase">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="AddNewMaterials" target="TestBase">
+      <point x="0.0" y="-15.0" />
+      <point x="71.0" y="254.0" />
+      <point x="126.25" y="254.0" />
+      <point x="-23.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="342.0" y="156.0" />
+  <SelectedNodes>
+    <node>TestBase</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
